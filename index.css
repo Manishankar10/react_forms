@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+form{
+  background-color: rgb(215, 204, 226);
+  padding: 20px;
+  width: 50%;
+  border: 2px solid black;
+  margin-left: 300px;
+  height: 358px;
+}
+form > div{
+  width: 30px;
+  padding: 10px;
+
+}
+.tablename{
+  width: 50%;
+  float: left;
+  text-align: left;
+  padding-left: 300px;
+  padding-top: 10px;
+}
+.T1{
+  width: 100%;
+}
+table, td, th{
+  border: 1px solid black;
+  border-collapse: collapse;
+
+}
+th{
+  background-color: rgb(170, 170, 223);
+}
+.t1{
+  padding:10px;
+}
+.buttons{
+  display: flex;
+  width: 100%;
+}
+html,body{
+  background-image:url(./components/images.jpg) ;
+  background-size: 1000px;
+}
+button{
+  background-color: transparent;
+  border: 1px solid green;
+}
